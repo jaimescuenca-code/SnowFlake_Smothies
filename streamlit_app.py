@@ -47,7 +47,7 @@ st.write(
 
 # st.subheader("Underlying data")
 # st.dataframe(queried_data, use_container_width=True)
-cnx = st.connection('Snowflake')
+cnx = st.connection('snowflake')
 
 name_of_order = st.text_input('Name on Smoothie:')
 st.write('Your name on Smoothie will be:', name_of_order)
